@@ -13,7 +13,7 @@ cat rstudio-server.job.{JOBID}
 3) with ssh-fowarding, forward the rstudio port to your localhost port which should have been displayed after the cat command. open a webbrowser and open http://localhost:8787, the login credentials should have been displayed after the cat command too. 
 
 
-4) To install libaries (on the hpc), use the correct R-environment (here 4.2) and install the packages into a specific user library via packages.install()
+4) To install libaries (on the hpc), use the correct R-environment (here 4.2) and install the packages into a specific user library via install.packages().
 
 5) Within the RStudio Console, add the path to your new library: 
 myPaths <- .libPaths()
