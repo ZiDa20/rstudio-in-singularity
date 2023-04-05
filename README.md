@@ -2,7 +2,7 @@
 
 Run RStudio on a High Performance Computing Cluster
 
-1) Create the singularity environment
+1) Create the singularity environment -> 
 	Download the rocker image: singularity pull docker://rocker/rstudio:4.2 (there is a manual available: https://rocker-project.org/use/singularity.html)
 
 2) run the rstudio script (rstudio.sh) with your job manager, here slurm is used.
