@@ -24,8 +24,8 @@ The path can be changed within the install packages tab in RStudio.<br />
 
 6) to install packages: <br />
 spack load r <br />
-install.packages("packagae_name", lib = "/home/user/R/custom_4.2.2")
-<br />
+install.packages("packagae_name", lib = "/home/user/R/custom_4.2.2") <br />
+
 7) and when loading a lib in your R script: 
 library(packagae_name, lib = "/home/user/R/custom_4.2.2") <br />
 
