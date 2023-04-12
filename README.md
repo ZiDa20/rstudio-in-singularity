@@ -15,20 +15,20 @@ cat rstudio-server.job.{JOBID}
 
 4) To install libaries (on the hpc), use the correct R-environment (here 4.2) and install the packages into a specific user library via install.packages().
 
-5) Within the RStudio Console, add the path to your new library: 
+5) Within the RStudio Console, add the path to your new library: <br />
 myPaths <- .libPaths() <br />
 myPaths <- c(myPaths, "/home/user/R/custom_4.2.2”) <br />
 .libPaths(myPaths) <br />
-The path can be changed within the install packages tab in RStudio
+The path can be changed within the install packages tab in RStudio.
 
 <br />
-to install packages: <br />
+6.) to install packages: <br />
 spack load r <br />
 install.packages("packagae_name", lib = "/home/user/R/custom_4.2.2")
-
-/home/user/R/custom_4.2.2
-and when loading a lib in your R script: 
+<br />
+7.) and when loading a lib in your R script: 
 library(packagae_name, lib = "/home/user/R/custom_4.2.2")
+<br />
 Good Luck ;)
 
  
