@@ -27,9 +27,9 @@ spack load r <br />
 install.packages("packagae_name", lib = "/home/user/R/custom_4.2.2")
 <br />
 7.) and when loading a lib in your R script: 
-library(packagae_name, lib = "/home/user/R/custom_4.2.2")
-<br />
-Good Luck ;)
+library(packagae_name, lib = "/home/user/R/custom_4.2.2") <br />
+
+8.Good Luck ;)
 
  
 
