@@ -19,9 +19,9 @@ cat rstudio-server.job.{JOBID}
 myPaths <- .libPaths() <br />
 myPaths <- c(myPaths, "/home/user/R/custom_4.2.2”) <br />
 .libPaths(myPaths) <br />
-The path can be changed within the install packages tab in RStudio.
+The path can be changed within the install packages tab in RStudio.<br />
 
-<br />
+
 6) to install packages: <br />
 spack load r <br />
 install.packages("packagae_name", lib = "/home/user/R/custom_4.2.2")
